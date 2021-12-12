@@ -1,5 +1,5 @@
 import './App.css';
-import Profile from './Profile/Profile';
+import Profile from './Components/Profile/Profile';
 import user from './data/user.json';
 
 function App() {
