@@ -3,6 +3,8 @@ import Profile from './Components/Profile/Profile';
 import user from './data/user.json';
 import Statistics from './Components/Statistics/Statistics';
 import data from './data/data.json';
+import FriendList from './Components/FriendList/FriendList';
+import friends from './data/friends.json';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <h2>Задание 2 - Секция статистики</h2>
       <Statistics title="Upload stats" stats={data} />
       <Statistics stats={data} />
+      <h2>Задание 3 - Список друзей</h2>
+      <FriendList friends={friends} />
     </div>
   );
 }
