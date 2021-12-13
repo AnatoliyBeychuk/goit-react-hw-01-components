@@ -1,0 +1,46 @@
+.transaction_history {
+  max-width: 1000px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  border: 1px solid #e4e4e4;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.4);
+}
+
+.title {
+  color: white;
+  background-color: #00bcd5;
+  padding: 20px 0;
+  text-transform: uppercase;
+  border-left: 1px solid white;
+}
+
+.title:first-child {
+  border-top-left-radius: 5px;
+}
+.title:last-child {
+  border-top-right-radius: 5px;
+}
+
+.item {
+  height: 50px;
+  color: #909092;
+  background-color: white;
+}
+.item:nth-child(even) {
+  background-color: #ecf1f4;
+}
+
+.type {
+  text-transform: capitalize;
+  border-left: 1px solid #e4e4e4;
+}
+
+.amount {
+  border-left: 1px solid #e4e4e4;
+}
+
+.currency {
+  border-left: 1px solid #e4e4e4;
+}

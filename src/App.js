@@ -5,6 +5,8 @@ import Statistics from './Components/Statistics/Statistics';
 import data from './data/data.json';
 import FriendList from './Components/FriendList/FriendList';
 import friends from './data/friends.json';
+import TransactionHistory from './Components/TransactionHistory/TransactionHistory';
+import transactions from './data/transactions.json';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
       <Statistics stats={data} />
       <h2>Задание 3 - Список друзей</h2>
       <FriendList friends={friends} />
+      <h2>Задание 4 - История транзакций</h2>
+      <TransactionHistory items={transactions} />
     </div>
   );
 }

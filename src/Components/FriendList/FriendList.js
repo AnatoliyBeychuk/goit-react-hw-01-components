@@ -9,7 +9,7 @@ function FriendList({ friends }) {
         {friends.map(e => {
           return (
             <FriendListItem
-              id={e.id}
+              key={e.id}
               avatar={e.avatar}
               name={e.name}
               isOnline={e.isOnline}
